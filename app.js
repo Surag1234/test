@@ -305,6 +305,7 @@ function isLoggedIn(req, res, next) {
     if (req.isAuthenticated()) return next();
     res.redirect("/login");
 }
+//test
 
 // Start the server
 app.listen(PORT, () => {
